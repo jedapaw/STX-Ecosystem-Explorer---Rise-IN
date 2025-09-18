@@ -1,0 +1,7 @@
+/*
+  We import Ant Design's reset CSS directly in index.tsx now,
+  so this file can be used for additional global styles if needed.
+*/
+body {
+  background-color: #f0f2f5;
+}

@@ -1,0 +1,22 @@
+[package]
+name = "STX Ecosystem Explorer"
+version = "1.0.0"
+
+[addresses]
+explorer_addr = "0x8518642a7149458b6ff77f5d24d174b5cae49a7a3e1beb0d72bc692d7a5f8c41"
+owner = "_"
+user = "_"
+user1 = "_"
+attacker = "_"
+
+[dev-addresses]
+owner = "0x100"
+user = "0x101"
+user1 = "0x102"
+attacker = "0x103"
+
+# PASTED FROM THE TEMP FILE
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "devnet"
+subdir = "aptos-framework"
